@@ -1,3 +1,6 @@
 Welcome to lec6-demo
 
-This is a local change
+
+
+This is a very informative readme.
+
