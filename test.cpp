@@ -4,7 +4,7 @@
 #include <vector>
 
 TEST_CASE ( "Factorials are computed", "[factorial]") {
-  REQUIRE( Factorial(0) == 0 );
+  REQUIRE( Factorial(0) == 1 );
   REQUIRE( Factorial(1) == 1 );
   REQUIRE( Factorial(2) == 2 );
   REQUIRE( Factorial(3) == 6 );
@@ -34,5 +34,5 @@ TEST_CASE("incrementing values in integer vector", "[addN]"){
 		REQUIRE( res[v.size()-1] == 5 );
 		REQUIRE(res[random] == v[random]+n);
 	}
-	
+
 }
